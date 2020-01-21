@@ -50,7 +50,7 @@ name = list_of_directors(source)
  total = 0 
  i = 0 
  while i < source.length do 
-   total += hash_total[i]
+   total += hash_total[name][i]
   i += 1 
 end
 total
