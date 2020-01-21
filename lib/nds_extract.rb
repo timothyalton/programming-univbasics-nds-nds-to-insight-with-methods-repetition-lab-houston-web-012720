@@ -45,17 +45,7 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
-  directors_name = list_of_directors(source)
-  directors_totals_hash = directors_totals(source)
-  total = 0 
-  i = 0 
-  while i < directors_name.length do 
-    name = directors_name[i]
-    total += directors_totals_hash[name]
-    i += 1 
-    
-  end
-  total
+ 
 end
 
 
